@@ -10,7 +10,7 @@ function Navbar() {
           <li> <a href="#" id="current" title="Home">Home</a></li>
           <li><a href="" title="Communtiy">Community</a></li>
           <li> <a href="" title="Farm">Farm</a></li>
-          <li> <a href="" title="Contact-us">Contact us</a>
+          <li> <a href="#contact" title="Contact-us">Contact us</a>
           </li>
           </ul>
 

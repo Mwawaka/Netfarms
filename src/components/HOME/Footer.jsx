@@ -21,7 +21,7 @@ function Footer() {
           </ul>
         </div>
         <div className="contacts">
-        <h1 className="contacts--title">Contact us:</h1>
+        <h1 className="contacts--title" id="contact">Contact us:</h1>
         <p>NetFarms101@gmail.com</p>
         <p>+254709080708 or +254701020304</p>
         </div>
