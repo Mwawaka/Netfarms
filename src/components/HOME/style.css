@@ -1,0 +1,173 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav--bar {
+  padding: 0px 30px;
+  background-color: rgb(45, 47, 70);
+  /* box-shadow: 0px 5px 8px rgba(0, 255, 64, 0.699); */
+  max-width: 100%;
+  
+}
+.nav--links {
+  display: flex;
+  
+ 
+  /* justify-content: center; */
+  max-width: 100%;
+  overflow-x: hidden;
+ 
+}
+.nav--links ul{
+  list-style: none;
+  display:inline-flex;
+  
+}
+.nav--links li{
+  padding:0px 30px;
+}
+.nav--logo {
+
+
+  width: 100px;
+
+}
+.nav--links ul a {
+  text-decoration: none;
+  /* margin-left: 6px; */
+  
+color: whitesmoke;
+}
+.nav--links ul a:hover {
+  text-transform: uppercase;
+  color: chartreuse;
+}
+#current {
+  text-transform: uppercase;
+
+  color: chartreuse;
+}
+
+.card {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  background-image: url(../images/Embu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(29, 27, 27);
+  padding-left: 50px;
+}
+.card--title {
+  font-size: 50px;
+  font-weight: 800;
+}
+#spawn {
+  color: chartreuse;
+}
+.card--description {
+  color: rgb(253, 253, 253);
+  max-width: 45%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-overflow: hidden;
+}
+.card--2 {
+  max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  
+}
+.card--agri {
+  max-width: 100%;
+  float: left;
+  padding-right: 20px;
+}
+
+.card2--description {
+  /* font-size: 1vw; */
+  width: 90%;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  padding-bottom: 200px;
+}
+.form-value input {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 15px;
+}
+.form-value input:hover {
+  transition: transform 0.6s;
+  transform: scale(1.1);
+}
+.Footer {
+  padding: 30px 30px 200px;
+  /* background-color: rgb(45, 47, 70); */
+  color: white;
+  border: 4px whitesmoke dashed;
+  margin: 10px;
+}
+#spawn2 {
+  color: orangered;
+}
+.form-value input[type="submit"] {
+  background-color: white;
+  color: orangered;
+  border-radius: 5px;
+}
+.form-value input[type="submit"]:hover {
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform: scale(1.2);
+}
+.page {
+  
+  background-image: linear-gradient(to bottom right, orange, chartreuse);
+}
+.follows img{
+  width: 20px;
+}
+.follows ul{
+  list-style: none;
+
+}
+.contacts--title{
+  /* font-size: 50px; */
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+.obj  a{
+text-decoration: navajowhite;
+color: whitesmoke;
+}
+.obj a:hover{
+  color: chartreuse;
+}
+.disp{
+  display: flex;
+  justify-content: space-between;
+ overflow-x:auto;
+}
+.office{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.copy{
+  text-align: center;
+}
