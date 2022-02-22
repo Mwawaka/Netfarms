@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NetFarm from './components/HOME/NetFarm'
+import App from './App';
+
 import './components/HOME/style.css'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <NetFarm/>
+  <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
